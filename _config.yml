@@ -30,7 +30,7 @@ twitter_username: noshellboomer
 github_username:  sdpohje
 
 # Build settings
-theme: minima
+theme: midnight
 plugins:
   - jekyll-feed
 
