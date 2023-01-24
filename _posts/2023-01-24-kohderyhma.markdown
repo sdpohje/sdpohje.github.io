@@ -1,0 +1,2 @@
+# Ohjeen kohderyhmä
+Tämä suomenkielinen ohje on suunnattu erityisesti ICT- tai kyberturvallisuuden opiskelijoille tai junior-tason ammattilaisille. Se on suunnattu lukijalle, joka haluaa harjoitella oman tietoturvallisen Zero Trust -ympäristönsä rakentamista. Zero Trust -mallien käytännön osaamisesta on monenlaista hyötyä tietoturvasta kiinnostuneille, ja tässä ohjeessa ICT- ja turvaosaamistaan voi kehittää avoimeen lähdekoodiin perustuvan Software-Defined Perimeter -toteutuksen avulla.
