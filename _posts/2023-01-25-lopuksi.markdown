@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "Lopuksi"
+date:   2023-01-24 13:51:34 +0200
+categories: jekyll update
+---
+Tämän ohjeen tekeminen oli ainakin itselleni opettavainen kokemus. Prosessin aikana sain oppia taustateknologioista ja ratkoa monia ongelmia. Omat asennusvaiheeni kestivät muiden kiireiden takia useamman viikon, joten ymmärrän myös lukijoita, joiden fokus matkan varrella herpaantuu.
+Kuulisin joka tapauksessa erittäin mielelläni kokemuksiasi. 
+Mikä toimi? Mikä ehkä ei? Minkä voisi ilmaista paremmin? Saitko kokonaisuuden toimimaan? Haluatko kehittää ohjetta paremmaksi? Mitä erityisesti opit ja mitä et? Mitä ohjeen lukeminen (ja toivottavasti myös käytännössä kokeileminen) opetti Software-Defined Perimeter -teknologiasta, Zero Trustista ja tietoturvasta? 
+Olen äärimmäisen kiitollinen, jos voit antaa tätä palautetta osoitteeseen:
+sami.kivela@myy.haaga-helia.fi
+
+Kehitän ohjetta palautteen pohjalta, ja nimeäsi ei tulla julkaisemaan missään tilanteessa.
+
+Lämmin kiitos!
+
+
+
+
+
+Jekyll also offers powerful support for code snippets:
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/

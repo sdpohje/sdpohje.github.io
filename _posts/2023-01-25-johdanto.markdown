@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "Johdanto"
+date:   2023-01-24 13:51:34 +0200
+categories: jekyll update
+---
+Nollaluottamus eli Zero Trust on tietoturvallisten järjestelmien rakentamisen kulmakiviä. Sillä pyritään todentamaan aiempaa tarkemmin kaikkea verkkoliikennettä ja hallitsemaan pääsyä tietoihin dynaamisesti määriteltävän käyttöpolitiikan keinoin.
+
+Software-Defined Perimeter (SDP) on yksi Yhdysvaltain standardisointi- ja teknologiainstituutin (NIST) suosittelemista Zero Trust -toteutustavoista. ja se soveltuu sekä eri pilviratkaisuihin että erillisympäristöihin. Nopea verkkohaku voi todentaa sen, että moni huomattava ICT- ja tietoturvaratkaisujen toimittaja on rakentanut teknologisesti SDP:n kaltaisia ratkaisuja, joista monet elävät vain toisilla nimillä. Tämä yksityishenkilöille suunnattu toteutus tapahtuu mahdollisimman yksinkertaisessa muutaman virtuaalikoneen Ubuntu Linux -ympäristössä.
+
+Software-Defined Perimeter (SDP) eli ns. ”black cloud” -malli kehitettiin julkisen ja yksityisen sektorin yhteistyönä 2000-luvun lopulla. Waverley Labs -niminen riskienhallintayritys oli yksi alan pioneereista, ja heidän GitHub-sivuillaan oleva SDP-toteutus auttaa ymmärtämään niin Zero Trust -teknologiaa kuin muitakin turvallisen tietojenkäsittelyn perusteita (tietokannat, palomuurit, tunnistautumisen ja käyttölupien hallinta, versionhallinta jne.).
+
+Tämä ohje syventää Waverley Labsin GitHub-sivuilla olevaa avoimen lähdekoodin Software-Defined Perimeter (SDP) -asennus- ja konfigurointiohjetta (versio 0.2, heinäkuu 2020): https://github.com/WaverleyLabs/fwknop/blob/master/Waverley%20Labs%20OpenSDP%20Installation%20and%20Configuration.pdf
+
+Ohjeen mukaisesti asennettava SDP-toteutus sisältää kolme moduulia: Controller, Gateway ja Client. Nämä ovat SDP-toteutuksen vähimmäisvaatimukset, ja niiden välinen arkkitehtuuri voidaan rakentaa eri tavoin (arkkitehtuurista lisää Cloud Security Alliancen SDP Working Groupin sivuilla: https://cloudsecurityalliance.org/research/working-groups/software-defined-perimeter).
+ 
+Tässä ohjeessa on luotu kolme itsenäistä Ubuntu Linux -virtuaalikonetta, joista ensimmäinen toimii Controller-koneena, toinen Gateway-koneena ja kolmas Client-koneena. Ohje on tehty ammattikorkeakoulun toiminnallisena opinnäytetyönä. Se kuvaa myös tekijän omaa asennusprosessia niin pitkälle kuin projektin aikana oli mahdollista edetä. Viimeistä Client-konetta ohje käsittelee vain pintapuolisesti.  
+
+
+Jekyll also offers powerful support for code snippets:
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
