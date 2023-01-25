@@ -1,6 +1,6 @@
 # Software-Defined Perimeter -asennusohje
 
-Tähän tulee ohjeen teksti
+Please navigate to GitHub Pages: https://sdpohje.github.io/
 
 ## Alaotsikko
 
